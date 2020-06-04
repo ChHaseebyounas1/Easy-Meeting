@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403362171964",
+    "firebase_url": "https://easy-meeting-4f4cf.firebaseio.com",
+    "project_id": "easy-meeting-4f4cf",
+    "storage_bucket": "easy-meeting-4f4cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403362171964:android:e190bde70f89efeeec8739",
+        "android_client_info": {
+          "package_name": "app.tecsol.easymeeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403362171964-vecfombr7mf2v88th6u4vop7mlrhoa2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.tecsol.easymeeting",
+            "certificate_hash": "3a8dd6dfdbdbd7b74786fc9135f43234bfcb6edc"
+          }
+        },
+        {
+          "client_id": "403362171964-n06cu7bhon2b7nloesu519ssl0e3i0es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDedwqDmM3PyicNqA2LsyORH2wWNpZigIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403362171964-n06cu7bhon2b7nloesu519ssl0e3i0es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

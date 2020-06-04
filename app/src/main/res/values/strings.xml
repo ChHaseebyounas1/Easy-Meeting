@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Easy Meeting</string>
+
+    <string name="language_prompt">Choose a Language</string>
+    <string-array name="country_arrays">
+        <item> Chines</item>
+        <item> English</item>
+        <item> Arabic </item>
+        <item> Japanese </item>
+        <item>France</item>
+        <item> … etc. </item>
+
+    </string-array>
+</resources>
