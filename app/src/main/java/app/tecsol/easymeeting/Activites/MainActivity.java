@@ -1,8 +1,10 @@
-package app.tecsol.easymeeting;
+package app.tecsol.easymeeting.Activites;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import app.tecsol.easymeeting.R;
 
 public class MainActivity extends AppCompatActivity {
 

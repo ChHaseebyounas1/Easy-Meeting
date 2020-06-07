@@ -1,4 +1,4 @@
-package app.tecsol.easymeeting;
+package app.tecsol.easymeeting.Activites;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DropList extends AppCompatActivity {
+import app.tecsol.easymeeting.R;
+
+public class DropListActivity extends AppCompatActivity {
     Button signup,login;
 
     @Override
@@ -20,7 +22,7 @@ public class DropList extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DropList.this, Signup.class);
+                Intent i = new Intent(DropListActivity.this, SignupActivity.class);
                 startActivity(i);
             }
         });
@@ -28,7 +30,7 @@ public class DropList extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DropList.this, Login.class);
+                Intent i = new Intent(DropListActivity.this, Login.class);
                 startActivity(i);
             }
         });

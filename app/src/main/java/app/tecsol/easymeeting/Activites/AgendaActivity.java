@@ -1,4 +1,4 @@
-package app.tecsol.easymeeting;
+package app.tecsol.easymeeting.Activites;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,9 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Agenda extends AppCompatActivity {
+import app.tecsol.easymeeting.R;
+
+public class AgendaActivity extends AppCompatActivity {
     Button btnagenda,btnmom,btntodo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +25,7 @@ public class Agenda extends AppCompatActivity {
         btnagenda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Agenda.this, Agenda.class);
+                Intent i = new Intent(AgendaActivity.this, AgendaActivity.class);
                 startActivity(i);
             }
         });
@@ -32,7 +34,7 @@ public class Agenda extends AppCompatActivity {
         btnmom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Agenda.this, Mom.class);
+                Intent i = new Intent(AgendaActivity.this, MomActivity.class);
                 startActivity(i);
             }
         });
@@ -41,7 +43,7 @@ public class Agenda extends AppCompatActivity {
         btnagenda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Agenda.this, Agenda.class);
+                Intent i = new Intent(AgendaActivity.this, AgendaActivity.class);
                 startActivity(i);
             }
         });

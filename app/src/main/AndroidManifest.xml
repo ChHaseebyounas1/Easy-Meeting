@@ -10,13 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DropList"></activity>
-        <activity android:name=".Signup" />
-        <activity android:name=".Mom" />
-        <activity android:name=".Login" />
-        <activity android:name=".Agenda" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Splashscreenactivity">
+        <activity android:name=".Activites.DropListActivity"></activity>
+        <activity android:name=".Activites.SignupActivity" />
+        <activity android:name=".Activites.MomActivity" />
+        <activity android:name=".Activites.Login" />
+        <activity android:name=".Activites.AgendaActivity" />
+        <activity android:name=".Activites.MainActivity" />
+        <activity android:name=".Activites.Splashscreenactivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
