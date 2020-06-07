@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            android:id="@+id/edtname"
             android:layout_marginTop="10dp"
             />
 
@@ -26,6 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
+            android:id="@+id/edtpassword"
             android:inputType="textPassword"
             android:layout_marginTop="10dp"
             />
@@ -34,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:id="@+id/btnone"
+            android:id="@+id/btnlogin"
             android:background="#385723"
             android:textColor="#fff"
             android:layout_gravity="bottom"

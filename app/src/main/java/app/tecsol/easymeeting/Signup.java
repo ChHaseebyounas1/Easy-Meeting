@@ -50,7 +50,7 @@ public class Signup extends AppCompatActivity {
                 nameSTr=edtfullnamesignup.getText().toString();
                 PasswordStr=edtpasswordsignup.getText().toString();
                 EmailStr=edtemailsignup.getText().toString();
-                mAuth.signInWithEmailAndPassword(EmailStr, PasswordStr).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                mAuth.createUserWithEmailAndPassword(EmailStr, PasswordStr).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
@@ -71,6 +71,11 @@ public class Signup extends AppCompatActivity {
                             });
 
                         }
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(Signup.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
 
